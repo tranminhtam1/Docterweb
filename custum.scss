@@ -1,0 +1,115 @@
+.banner {
+    height    : 500px;
+    background: url('./img/bg1.jpg')center center no-repeat;
+    padding   : 20px;
+
+    .about-sign-in {
+        height    : 80px;
+        width     : 100%;
+        text-align: right;
+
+        .about,
+        .sign-in {
+            margin-top     : 20px;
+            padding        : 7px 15px;
+            text-decoration: none;
+            text-transform : uppercase;
+            /* display     : inline-block; */
+        }
+
+        .sign-in {
+            margin-right : 60px;
+            margin-left  : 25px;
+            border-radius: 20px;
+            border       : 1px solid green;
+        }
+    }
+
+    .logo {
+        background: url('./img/logo6.png') center center no-repeat;
+        margin-top: 40px;
+        height    : 90px;
+
+
+    }
+
+    .text {
+        padding-top: 30px;
+        text-align : center;
+        margin-top : 30px;
+        font-size  : 20px;
+        font-style : italic;
+
+        span {
+            padding    : 10px;
+            display    : block;
+            font-size  : 150%;
+            font-weight: bold;
+        }
+    }
+
+    .btn-start-now {
+        text-align: center;
+
+        button {
+            text-transform: uppercase;
+            padding       : 10px 15px;
+            border-radius : 20px;
+            border        : 1px solid green;
+            margin-top    : 25px;
+            cursor        : pointer;
+        }
+    }
+
+    .contain-center {
+
+        .left,
+        .right,
+        .center {
+            width        : 33%;
+            display      : inline-block;
+            text-align   : center;
+            margin-top   : 20px;
+            margin-bottom: 20px;
+
+        }
+
+        span {
+           
+            display: block;
+            font-size: 25px;
+            padding-top: 5px;
+        }
+
+        img {
+            width : 50px;
+            height: 50px;
+
+        }
+    }
+
+}
+
+.body {
+    margin : 0 !important;
+    padding: 0 !important;
+}
+
+.red {
+    border: 1px solid red;
+}
+
+.green {
+    border: 1px solid green;
+}
+
+
+
+
+
+
+
+.contain-center {
+    height: 50px;
+    border: 1px;
+}
